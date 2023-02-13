@@ -37,7 +37,9 @@ function AboutMe() {
                     <div className='lg:mt-7 mt-7 lg:px-2 lg:text-left text-center'>
                         <Link href="/Contact">
                             <button className="border-2 px-4 py-3 rounded-md font-semibold text-gray-800 bg-hex border-blue-300 hover:bg-gray-200 hover:text-blue-600">
-                                Let's Talk
+                                {
+                                    "Let's Talk"
+                                }
                             </button>
                         </Link>
 
