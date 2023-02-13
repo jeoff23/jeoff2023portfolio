@@ -7,32 +7,21 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-
-    <html lang="en">
-      {/*
+    <>
+      <html lang="en">
+        {/*
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <head />
-
-      <body className=''>
-        <div className="bg-midnight min-h-screen bg-background-texture">
-          <Topbar />
-          {children}
-        </div>
-      </body>
-    </html>
-    // <section>
-    //   <body>
-    //     <div className="bg-midnight min-h-screen bg-background-texture">
-    //       <Topbar />
-    //         {children}
-    //     </div>
-
-    //   </body>
-
-
-    // </section>
+        <head />
+        <body>
+          <div className="bg-midnight min-h-screen bg-background-texture">
+            <Topbar />
+            {children}
+          </div>
+        </body>
+      </html>
+    </>
   )
 }
 
