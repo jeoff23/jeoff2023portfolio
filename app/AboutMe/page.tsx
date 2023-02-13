@@ -13,7 +13,7 @@ function AboutMe() {
             </div>
             <div className=' max-w-7xl mx-auto lg:h-2/5 lg:flex lg:justify-between lg:flex-row flex flex-col'>
                 <div className='bg-blue-100 lg:w-2/3 w-72 lg:h-full lg:mr-28 mx-auto border-2 rounded-3xl bg-gradient-to-r from-blue-400 to-transparent flex items-center justify-center'>
-                    <Image src={jeoff} alt="" className='border rounded-2xl anime-bounce rotate-12 overflow-hidden hover:rotate-0 duration-300' />
+                    <Image src={jeoff} alt="main picture" priority className='border rounded-2xl anime-bounce rotate-12 overflow-hidden hover:rotate-0 duration-300' />
                 </div>
                 <div className='flex flex-col lg:m-2 mx-2 lg:w-1/2 lg:mt-0 mt-16'>
                     <div className='flex flex-row text-center'>
