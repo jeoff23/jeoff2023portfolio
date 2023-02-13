@@ -1,4 +1,3 @@
-"use client"
 import React from 'react'
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineUser } from 'react-icons/ai';
@@ -14,7 +13,9 @@ function Topbar() {
         <nav className='inset-x-0 bottom-0 fixed w-full justify-center flex items-center mb-4 rounded-3xl '>
             <ul className='flex justify-around lg:w-1/4 w-2/3 border border-darkteal hover:bg-midnight py-4 background-transfarent rounded-full backdrop-blur-lg gap-5 px-5'>
                 <li>
-                    <Link href="/"><AiOutlineHome className='text-xl text-gray-200 hover:text-hex' /></Link>
+                    <Link href="/">
+                        <AiOutlineHome className='text-xl text-gray-200 hover:text-hex' />
+                    </Link>
                 </li>
                 <li>
                     <Link href="/AboutMe">

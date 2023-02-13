@@ -4,9 +4,9 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaMailBulk } from "react-icons/fa"
 
 function Footer() {
     return (
-        <div className='lg:pt-32 pt-24'>
-            <div className='text-center text-gray-400 text-md font-semibold lg:h-1/2 h-3/4 bg-hex flex flex-col justify-evenly'>
-                <h1 className='text-4xl text-gray-800 hover:text-gray-100 font-bold'>Jeoff-R</h1>
+        <div className='lg:pt-32 pt-12'>
+            <div className='text-center text-gray-400 text-md font-semibold lg:h-96 bg-hex flex flex-col justify-evenly py-16 lg:pb-4'>
+                <h1 className='text-4xl text-gray-800 hover:text-gray-100 font-bold mb-4'>Jeoff-R</h1>
                 <div className='lg:flex lg:flex-row flex flex-col text-gray-800 w-1/3 mx-auto justify-evenly'>
                     <Link href="/">
                         <div className='mb-5 lg:mb-0'>
@@ -40,7 +40,7 @@ function Footer() {
                         <span className='text-sm font-semibold hover:text-gray-200'>Contact</span>
                     </Link>
                 </div>
-                <div className='flex flex-row lg:w-1/6 w-2/3 mx-auto justify-around items-center '>
+                <div className='flex flex-row lg:w-1/6 w-2/3 mx-auto justify-around items-center lg:py-4 py-6'>
                     <span className='border p-2 bg-gray-700 border-darkteal hover:bg-hex' >
                         <Link href="https://www.facebook.com/iemjeoff/" target="_blank">
                             <FaFacebook className="text-xl text-gray-100 hover:text-midnight" data-bs-toggle="tooltip" title='Facebook' />
@@ -65,7 +65,7 @@ function Footer() {
 
                     </span>
                 </div>
-                <div className='mb-4 text-gray-800'>
+                <div className='lg:mb-10 mb-2 text-gray-800'>
                     &copy; ET 2023. All rights reserved.
                 </div>
             </div>

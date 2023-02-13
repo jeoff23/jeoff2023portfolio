@@ -4,7 +4,7 @@ import { SiRedux, SiReact, SiTailwindcss, SiMaterialui, SiNextdotjs, SiTypescrip
 
 function Skills() {
     return (
-        <div className="lg:pt-44 pt-28">
+        <div className="lg:pt-44 pt-16">
             <div className='text-center lg:mb-16 mb-10'>
                 <h5 className='text-gray-400 text-md font-semibold'>The Skills i Have</h5>
                 <h2 className='mt-2 text-2xl font-semibold text-hex'>Skills</h2>
