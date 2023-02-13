@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaMailBulk } from "react-icons/fa"
 
 function Footer() {
     return (
-        <div className='lg:pt-32 pt-12'>
+        <div className='lg:pt-26 pt-12'>
             <div className='text-center text-gray-400 text-md font-semibold lg:h-96 bg-hex flex flex-col justify-evenly py-16 lg:pb-4'>
                 <h1 className='text-4xl text-gray-800 hover:text-gray-100 font-bold mb-4'>Jeoff-R</h1>
                 <div className='lg:flex lg:flex-row flex flex-col text-gray-800 w-1/3 mx-auto justify-evenly'>
