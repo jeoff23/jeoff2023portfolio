@@ -12,18 +12,15 @@ type Props = {}
 
 function page({ }: Props) {
     return (
-        <React.Fragment>
-            <div className="bg-midnight min-h-screen bg-background-texture">
-                <section id="header"><Header /></section>
-                <section id="about"><AboutMe /></section>
-                <section id="skills"><Skills /></section>
-                <section id="allworks"><AllWorks /></section>
-                <section id="achievements"><Achievements /></section>
-                <section id="contact"><Contact /></section>
-                <Footer />
-            </div>
-        </React.Fragment>
-
+        <div className="bg-midnight min-h-screen bg-background-texture">
+            <section id="header"><Header /></section>
+            <section id="about"><AboutMe /></section>
+            <section id="skills"><Skills /></section>
+            <section id="allworks"><AllWorks /></section>
+            <section id="achievements"><Achievements /></section>
+            <section id="contact"><Contact /></section>
+            <Footer />
+        </div>
     )
 }
 
