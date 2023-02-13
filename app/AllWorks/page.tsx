@@ -70,7 +70,7 @@ function AllWorks() {
                     </div>
                     <div className='bg-darkteal lg:w-1/3 w-full  flex flex-col border-2 rounded-3xl border-midnight transition-shadow hover:bg-midnight p-6'>
                         <Image src={todolist} alt="todolist" className='rounded-3xl' />
-                        <h1 className='text-gray-200 text-2xl font-semibold my-3'>Shopee</h1>
+                        <h1 className='text-gray-200 text-2xl font-semibold my-3'>Todo List</h1>
                         <h5 className='text-gray-200 text-md font-semibold'>To-do lists are a list of tasks that an individual needs to complete or accomplish. Tasks are typically put in order by priority or importance.</h5>
                         <h2 className='text-hex text-md font-semibold my-5'>React | Tailwind | HTML | React Redux</h2>
                         <div>
