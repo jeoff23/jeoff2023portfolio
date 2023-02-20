@@ -5,7 +5,7 @@ import certificate from '../img/certificate.png'
 
 function Achievements() {
     return (
-        <div className='lg:pt-20'>
+        <div className='lg:pt-20 py-12'>
             <div className='text-center text-gray-400 text-md font-semibold'>
                 <h5>My Achievements</h5>
             </div>

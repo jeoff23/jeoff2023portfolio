@@ -9,7 +9,7 @@ import todolist from '../img/todolist.png'
 
 function AllWorks() {
     return (
-        <div className='lg:py-32 py-28'>
+        <div className='lg:py-32 py-24'>
             <div className='text-center text-gray-400 text-md font-semibold'>
                 <h5>My Work</h5>
             </div>
